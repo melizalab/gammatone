@@ -21,7 +21,7 @@ Installation
 You can install directly from this git repository using:
 
 ```text
-pip install git+https://github.com/detly/gammatone.git
+pip install git+https://github.com/melizalab/gammatone.git
 ```
 
 ...or you can clone the git repository however you prefer, and do:
@@ -42,12 +42,17 @@ python setup.py install
 
  - numpy
  - scipy
+### for generating plots (optional)
+ - matplotlib
+### for running tests (optional)
  - nose
  - mock
- - matplotlib
 
 Using the Code
 --------------
+
+If you want to use the CLI, make sure to enable the `plot` extra
+during installation (e.g. `pip install .[plot`).
 
 See the [API documentation](http://detly.github.io/gammatone/). For a
 demonstration, find a `.wav` file (for example,
@@ -142,4 +147,3 @@ willing to make an exception for the `.mat` files containing the test data. My
 reasoning is that they represent the decoupling of my code from the MATLAB code,
 and if the two projects were separated, they would be considered a part of the
 Python code, not the original MATLAB code.
-

@@ -12,10 +12,12 @@ setup(
     install_requires = [
         'numpy',
         'scipy',
-        'nose',
-        'mock',
-        'matplotlib',
     ],
+
+    extras_require = {
+        'plot': ['matplotlib'],
+        'test': ['nose', 'mock'],
+    },
 
     entry_points = {
         'console_scripts': [
