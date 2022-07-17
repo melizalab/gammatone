@@ -3,7 +3,6 @@
 # 
 # This file is part of the gammatone toolkit, and is licensed under the 3-clause
 # BSD license: https://github.com/detly/gammatone/blob/master/COPYING
-import nose
 from mock import patch
 
 import gammatone.filters
@@ -39,5 +38,3 @@ class CentreFreqsTester:
         erb_space_mock.assert_called_with(*self.params)
 
 
-if __name__ == '__main__':
-    nose.main()

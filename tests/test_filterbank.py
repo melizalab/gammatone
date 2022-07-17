@@ -3,7 +3,6 @@
 # 
 # This file is part of the gammatone toolkit, and is licensed under the 3-clause
 # BSD license: https://github.com/detly/gammatone/blob/master/COPYING
-import nose
 import numpy as np
 import scipy.io
 from pkg_resources import resource_stream
@@ -62,5 +61,3 @@ class ERBFilterBankTester:
         assert np.allclose(result, self.expected, rtol=1e-5, atol=1e-12)
 
 
-if __name__ == '__main__':
-    nose.main()

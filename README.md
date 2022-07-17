@@ -1,3 +1,10 @@
+# Deprecation notice
+
+This library is unmaintainable without a lot effort. Try to avoid using it if possible.
+
+unmaintained Dependencies:
+- nose
+
 Gammatone Filterbank Toolkit
 ============================
 

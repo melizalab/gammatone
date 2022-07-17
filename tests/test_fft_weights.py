@@ -4,7 +4,6 @@
 # This file is part of the gammatone toolkit, and is licensed under the 3-clause
 # BSD license: https://github.com/detly/gammatone/blob/master/COPYING
 from __future__ import division
-import nose
 import numpy as np
 import scipy.io
 from pkg_resources import resource_stream
@@ -80,5 +79,3 @@ def test_fft_weights():
         yield test_weights
 
 
-if __name__ == '__main__':
-    nose.main()
