@@ -1,16 +1,10 @@
-# Deprecation notice
-
-This library is unmaintainable without a lot effort. Try to avoid using it if possible.
-
-unmaintained Dependencies:
-- nose
-
 Gammatone Filterbank Toolkit
 ============================
 
 *Utilities for analysing sound using perceptual models of human hearing.*
 
-Jason Heeris, 2013
+This is a fork of the gammatone package library by Jason Heeris, 2013. All
+modifications are by Dan Meliza, Jonah Weissmann, and Tyler Robbins.
 
 Summary
 -------

@@ -1,16 +1,14 @@
-# Copyright 2014 Jason Heeris, jason.heeris@gmail.com
-#
-# This file is part of the gammatone toolkit, and is licensed under the 3-clause
-# BSD license: https://github.com/detly/gammatone/blob/master/COPYING
-from __future__ import division
-import numpy as np
-
-from .filters import make_erb_filters, centre_freqs, erb_filterbank
-
+# -*- coding: utf-8 -*-
+# -*- mode: python -*-
 """
 This module contains functions for rendering "spectrograms" which use gammatone
 filterbanks instead of Fourier transforms.
+
+See COPYING for copyright and licensing information.
+
 """
+import numpy as np
+from .filters import make_erb_filters, centre_freqs, erb_filterbank
 
 
 def round_half_away_from_zero(num):
